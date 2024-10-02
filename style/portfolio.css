@@ -3,6 +3,7 @@ nav{
      display: flex;
      justify-content: space-between;
      align-items: center;
+     margin: 0 200px;
 }
 nav > ul{
     display: flex;
@@ -39,3 +40,16 @@ body{
     font-weight: 700;
     padding: 15px 35px;
 }
+/* header related styles  */
+.banner{
+    background-color:#FFF8F3;
+}
+.banner-div{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.banner-div .profile-pic{
+     width: 500px;
+}
+
