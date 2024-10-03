@@ -185,5 +185,24 @@ footer{
    display: flex;
    background: #FFF8F3;  
 }
-  
 
+.website-links a{
+    margin: 25px;
+}
+.footer-column{
+    width: 50%;
+    
+}
+.contact input[type="text"], .contact input[type="email"],
+textarea{
+    display: block;
+    padding: 18px 35px;
+    margin-bottom: 24px;
+    color: #757575;
+    border-radius: 5px;
+    border: 0;
+    background: #FFF;
+    width: 461px;
+    height: 64;
+    gap: 58px;
+}
