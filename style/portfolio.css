@@ -46,6 +46,7 @@ body{
 
 }
 /* header related styles  */
+
 .banner{
     background-color:#FFF8F3;
     background-image: url('../portfolio-resources/images/header_bg.png');
@@ -82,6 +83,10 @@ body{
     margin-bottom: 30px;
 }
 /* main section style */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 
 /* about section style */
 .about-j{
@@ -100,4 +105,15 @@ body{
     color: #757575;
     text-align: center;
     font-size: 18px;
+}
+.about-info-contaner{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
+    
+}
+info-description{
+    font-size: larger;
 }
