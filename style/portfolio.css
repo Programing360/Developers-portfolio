@@ -164,14 +164,26 @@ info-description{
 .resume-container hr{
     margin: 30px;
 }
+/* footer style */
 .download-cv{
     text-align: center;
     margin-top: 60px;
 }
-.contract{
 
-}
-.connection{
+
+
+/* .connection{ */
     text-align: center;
+    width: 461;
+    height: 64;
+    background: white;
+    gap: 24px;
 }
+
+/* footer style */
+footer{
+   display: flex;
+   background: #FFF8F3;  
+}
+  
 
