@@ -1,0 +1,226 @@
+/* nav styles related */
+nav{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin: 0 120px;
+  
+   
+
+}
+nav > ul{
+    display: flex;
+    align-items: center;
+    padding-left: 250px;
+    
+  
+}
+nav li{
+    list-style: none; 
+    margin-right: 50px;
+    
+}
+nav a{
+    text-decoration: none;
+    color: #474747;
+}
+.banner-list{
+    border-radius: 5px;
+}
+.banner-title{
+    font-size: 85px;
+}
+.text-style{
+    color: #FD6E0A;
+    /* font-size: 45px; */
+}
+.button-style{
+    background: #FD6E0A;
+    color: white;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 700px;
+    padding: 15px 35px;
+    border: 0px;
+    
+}
+body{
+    
+    font-family: "Open Sans", sans-serif;
+    /* font-size: 45px; */
+  
+}
+.banner-title{
+  font-size: 40px;
+}
+/* header related style */
+
+.header{
+    background-color: #FFF8F3;
+    padding: 30px 30px 30px 150px;
+    background-image: url('../portfolio-resources/images/developer.png');
+    background-repeat: no-repeat;
+    background-size: 100px;
+
+}
+header .div-content{
+    /* padding: 20px; */
+}
+.about-discription{
+    font-size: 35px;
+}
+.para-discription{
+    font-size: 18px;
+    color: #757575;
+}
+.div-content{
+    align-items: center;
+    background-image: url('../portfolio-resources/images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 800px;
+    display: flex;
+    justify-content: space-between;
+}
+.banner-contant{
+   font-size: 85px;
+      
+      
+}
+.div-speach{
+    /* background-image: url('../portfolio-resources/images/hardy.png'); */
+}
+.div-head{
+    font-size: 85px;
+}
+.div-greeting{
+    font-size: 45px;
+}
+.discriptions{
+    align-items: center;
+    padding: 130px;
+    background: #FFF8F3;
+    border-radius: 10px;  
+    text-align: center;
+    /* margin-top: 50px; */
+    margin: 80px 500px;
+}
+.about-type{
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    font-size: 20px;
+    
+}
+.about-info{
+    text-align: center;
+}
+.about-size{
+    font-size: 20px;
+    color: black;
+}
+.about-j{
+    color: rgb(166, 166, 160);
+}
+.description{
+    align-items: center;
+    padding: 130px;
+    background: #FFF8F3;
+    border-radius: 10px;  
+    text-align: center;
+    /* margin-top: 50px; */
+    margin: 80px 500px;
+}
+.list-shadow{
+     /* box-shadow: 0 6px 50px 0; */
+     text-align: left;
+     padding: 30px;
+     background-color: #FFFFFF;
+     
+         
+}
+.paragraph{
+    display: flex;
+   gap: 30px;
+   padding: ; 
+   width: 267px;
+   height: 377px;
+}
+.vanilla{
+    padding: 20px 10px 10px 10px;
+}
+.mide-font{
+       text-align: left;
+}
+.finish-list{
+    text-align: center;
+}
+.summary-speach{
+    /* display: flex; */
+    justify-content: space-between;
+    margin: 80px 500px;
+}
+.bannar{
+    /* justify-content: space-between;
+    display: flex;
+    margin: 80px 500px; */
+    
+}
+.resume-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 80px 500px;
+    /* width: 511px; */
+    /* height: 175px; */
+}
+.resume-head{
+    padding: 5px 0px 15px 5px;
+    color: #757575;
+    font-size: 18px;
+   
+}
+.resume-speach{
+    width: 480px;
+}
+.section-title{
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+.resume-finish{
+       text-align: center;
+}
+.bannar-document{
+    /* padding: 30px 0px;
+    display: flex;*/
+}  
+/* footer-style */
+.massage-title{
+    display: flex;
+    justify-content: space-between;
+    margin: 80px 500px;
+    width: 50%;
+
+}
+footer{
+    background-color: #FFF8F3;
+}
+.website-links{
+    gap: 10px;
+}
+.massage-last{
+    width: 50%;
+    margin-left: 50px;
+}
+.footer-column{
+   margin-bottom: 10px;
+   width: 460px;
+   height: 64px;
+   border: 0px;
+   
+
+}
+#btn-data{
+    margin-bottom: 100px;
+}

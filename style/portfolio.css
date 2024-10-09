@@ -49,20 +49,23 @@ body{
 
 .banner{
     background-color:#FFF8F3;
-    background-image: url('../portfolio-resources/images/header_bg.png');
+    background-image: url('../portfolio-resources/images/header_bg.png'), url('../portfolio-resources/images/developer.png');
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right, top left;
     justify-content: space-between;
     margin-bottom: 130px;
+    background-size: ;
 }
 .banner-div{
-    padding: 30px 30px 0px 150px;
+    padding: 30px 30px 30px 170px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 .banner-div .profile-pic{
      width: 500px;
+     margin-bottom: 0px;
+     
     
 }
 .banner-greeting{
@@ -170,15 +173,6 @@ info-description{
     margin-top: 60px;
 }
 
-
-
-/* .connection{ */
-    text-align: center;
-    width: 461;
-    height: 64;
-    background: white;
-    gap: 24px;
-}
 
 /* footer style */
 footer{
